@@ -23,7 +23,7 @@ Attempt manually adding the device via its IP.
 #### Can I control the lights when I'm not home?
 
 In the default configuration this is not possible, the devices need to be in the same local network.  
-However, you can either use a VPN to connect to your home network (if your router offers this option) or use a [port forwarding](https://github.com/Aircoookie/WLED/wiki/Remote-Access-and-IFTTT).  
+However, you can either use a VPN to connect to your home network (if your router offers this option or you could set up your own VPN on something like a raspberry pi) or use a [port forwarding](https://github.com/Aircoookie/WLED/wiki/Remote-Access-and-IFTTT).  
 Keep in mind that this exposes your light(s) to the public internet, so please be aware that it is not a secure solution.  
 If you want to risk it, at least take the precaution of enabling the WLED [OTA lock](https://github.com/Aircoookie/WLED/wiki/Security) feature and, if possible, only connect it to a guest network.  
 
